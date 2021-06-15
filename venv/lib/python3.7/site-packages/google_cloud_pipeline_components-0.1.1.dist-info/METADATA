@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: google-cloud-pipeline-components
+Version: 0.1.1
+Summary: This SDK enables a set of First Party (Google owned) pipeline components that allow users to take their experience from AI Platform SDK and other Google Cloud services and create a corresponding pipeline using KFP or Managed Pipelines.
+Home-page: https://github.com/kubeflow/pipelines/tree/master/components/google-cloud
+Author: The Google Cloud Pipeline Components authors
+Author-email: google-cloud-pipeline-components@google.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: kfp (<2.0.0,>=1.4.0)
+Requires-Dist: google-cloud-aiplatform (>=1.0.0)
+Provides-Extra: tests
+Requires-Dist: kfp (<2.0.0,>=1.4.0) ; extra == 'tests'
+Requires-Dist: google-cloud-aiplatform (>=1.0.0) ; extra == 'tests'
+Requires-Dist: mock (>=4.0.0) ; extra == 'tests'
+Requires-Dist: flake8 (>=3.0.0) ; extra == 'tests'
+Requires-Dist: pytest (>=6.0.0) ; extra == 'tests'
+
+UNKNOWN
+
+
